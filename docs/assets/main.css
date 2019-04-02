@@ -1,0 +1,87 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.font-light {
+	font-weight: 300;
+}
+
+.heading {
+	font-weight: 100;
+	color: #333;
+	font-size: 60px;
+}
+
+.network {
+	background: #fff;
+	border-bottom: 1px solid #eee;
+}
+
+.bg-grey {
+	background: #e6e6e6 !important;
+	border: 1px solid #333 !important;
+}
+
+.bg_primary {
+	background: #379dcd;
+}
+
+.navbar {
+	border-bottom: 1px solid #333;
+}
+
+.border {
+	border: 1px solid #333;
+}
+
+.br50 {
+	border-radius: 50%;
+}
+
+.over_hidden {
+	overflow: hidden;
+}
+
+.text-grey-light {
+	color: #adadad;
+}
+
+.service_card {
+	height: 120px;
+	width: 120px;
+	padding-top: 40px;
+	/* background: #9ebdd5 !important; */
+	text-align: center;
+	border-radius: 100%;
+}
+
+.bg_grey {
+	background: #333;
+}
+
+.border-grey {
+	border: 1px solid#eee;
+}
+
+.text-grey {
+	color: #666;
+}
+
+.text-grey2 {
+	color: #333;
+}
+
+.text-grey3 {
+	color: #888;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.custom_card {
+	border: 1px solid #e7e9eb;
+	box-shadow: none;
+}

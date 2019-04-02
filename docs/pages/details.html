@@ -1,0 +1,49 @@
+<div ng-controller="DetailsCtrl">
+  <section class="network pb-5 over_hidden">
+    <h1 class="heading text-center py-5">Create your Utility Network</h1>
+    <h4 class="text-center text-grey-light pb-5">Have your own Lawyer & Doctor anywhere anytime
+      <br> HAVE BEST CONSULTATIONS FOR FREE
+    </h4>
+    <div class="row justify-content-center">
+      <div class="col-md-3 py-4 m-2 custom_card">
+        <h5 class="text-grey2 mb-3">1000s of Professionals around INDIA</h5>
+        <p class="text-grey3">Plunes is the most economical online/offline consultation platforms</p>
+      </div>
+      <div class="col-md-3 py-4 m-2 custom_card">
+        <h5 class="text-grey2 mb-3">Search Professionals</h5>
+        <p class="text-grey3">Connect with multiple Professionals, Classmates, Friends and Colleagues</p>
+      </div>
+    </div>
+  </section>
+  <section id="sevices" class="over_hidden">
+    <md-content class="md-padding row py-5">
+      <div class="row justify-content-center">
+        <md-card ng-repeat="service in services" class="col-md-3">
+          <div class="justify-content-center d-flex py-3">
+            <div class="service_card" style="background: {{service.bg}}">
+              <img ng-src="{{service.image}}" width="54" class="md-card-image" alt="Washed Out">
+            </div>
+          </div>
+          <md-card-title>
+            <md-card-title-text>
+              <span class="md-headline text-grey2">{{service.title}}</span>
+            </md-card-title-text>
+          </md-card-title>
+          <md-card-content>
+            <p class="text-grey3">
+              {{service.brief}}
+            </p>
+          </md-card-content>
+          <md-card-actions layout="row" layout-align="center">
+            <md-button class="btn-block">Read More</md-button>
+          </md-card-actions>
+        </md-card>
+      </div>
+    </md-content>
+  </section>
+  <div class="bg_grey">
+    <div class="col-md-12 text-center text-grey py-3">
+    All Rights Reserved © 2018 Plunes.com
+    </div>
+  </div>
+</div>

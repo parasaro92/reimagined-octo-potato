@@ -1,0 +1,28 @@
+<section class="wrapper" ng-controller="SignUpCtrl">
+  <h1 class="text-center font-light py-5">Sign Up</h1>
+
+  <div class="md-no-momentum d-flex justify-content-center py-4">
+    <!-- <div class="row"> -->
+    <div class="col-md-3 border-grey py-3">
+      <md-input-container class="md-block">
+        <input ng-model="user.email" type="email" placeholder="First Name" ng-required="true">
+      </md-input-container>
+      
+      <md-input-container class="md-block">
+        <input ng-model="user.password" type="text" placeholder="Last Name">
+      </md-input-container>
+      <md-button class="md-raised md-primary btn-block m-0">Sign Up</md-button>
+    </div>
+    <div class="col-md-3 border-grey border-left-0 py-3">
+      <md-button class="md-raised btn-block">Sign up with Facebook</md-button>
+      <md-button class="md-raised btn-block">Sign up with Google</md-button>
+    </div>  
+    <!-- </div> -->
+  </div>
+  <div class="text-center">Already have an account? <a href="#!/login">Log in <md-icon>arrow_forward</md-icon></a></div>
+  <div class="bg_grey footer ">
+    <div class="col-md-12 text-center text-grey py-3">
+    All Rights Reserved © 2018 Plunes.com
+    </div>
+  </div>
+</section>
